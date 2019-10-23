@@ -4,7 +4,7 @@
 #
 Name     : flatten_json
 Version  : 0.1.7
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/49/e1/02d1f28a0276c0018c5dbe09929b12953c7c6a6d6b887686492ce53278a1/flatten_json-0.1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/49/e1/02d1f28a0276c0018c5dbe09929b12953c7c6a6d6b887686492ce53278a1/flatten_json-0.1.7.tar.gz
 Summary  : Flatten JSON objects
@@ -14,6 +14,7 @@ Requires: flatten_json-bin = %{version}-%{release}
 Requires: flatten_json-python = %{version}-%{release}
 Requires: flatten_json-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : util-linux
 
 %description
 [![Build Status](https://travis-ci.org/amirziai/flatten.svg?branch=master)](https://travis-ci.org/amirziai/flatten) [![PyPI version](https://badge.fury.io/py/flatten_json.svg)](https://badge.fury.io/py/flatten_json) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/7ae779ec4e99462f907c5afecfd5de48)](https://www.codacy.com/app/amirziai/flatten?utm_source=github.com&utm_medium=referral&utm_content=amirziai/flatten&utm_campaign=Badge_Coverage)
@@ -52,7 +53,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1570985095
+export SOURCE_DATE_EPOCH=1571793267
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
