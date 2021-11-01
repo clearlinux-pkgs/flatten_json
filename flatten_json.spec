@@ -4,7 +4,7 @@
 #
 Name     : flatten_json
 Version  : 0.1.13
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/cb/be/8f8e563004c7eae0b03be0fc6427a4ce07691c758250fdb31a9e934028d4/flatten_json-0.1.13.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cb/be/8f8e563004c7eae0b03be0fc6427a4ce07691c758250fdb31a9e934028d4/flatten_json-0.1.13.tar.gz
 Summary  : Flatten JSON objects
@@ -77,15 +77,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1614011511
+export SOURCE_DATE_EPOCH=1635728610
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
