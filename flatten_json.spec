@@ -4,7 +4,7 @@
 #
 Name     : flatten_json
 Version  : 0.1.13
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/cb/be/8f8e563004c7eae0b03be0fc6427a4ce07691c758250fdb31a9e934028d4/flatten_json-0.1.13.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cb/be/8f8e563004c7eae0b03be0fc6427a4ce07691c758250fdb31a9e934028d4/flatten_json-0.1.13.tar.gz
 Summary  : Flatten JSON objects
